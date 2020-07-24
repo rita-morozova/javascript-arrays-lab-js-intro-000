@@ -20,3 +20,8 @@ function appendKitten(name){
   newKittens = [ kittens]
   return newKittens
 }
+
+function prependKitten(name){
+  newKittens =[name, ... kittens]
+  return newKittens
+}
